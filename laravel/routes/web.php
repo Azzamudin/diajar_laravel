@@ -29,3 +29,6 @@ Route::get('blog', function () {
 Route::get('dosen', 'DosenController@index');
 
 Route::get('/pegawai/{malasngoding}', 'PegawaiController@index');
+
+Route::get('/formulir', 'PegawaiController@formulir');
+Route::post('/formulir/proses', 'PegawaiController@proses');
