@@ -27,3 +27,5 @@ Route::get('blog', function () {
 });
 
 Route::get('dosen', 'DosenController@index');
+
+Route::get('/pegawai/{malasngoding}', 'PegawaiController@index');
