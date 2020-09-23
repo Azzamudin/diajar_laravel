@@ -32,3 +32,8 @@ Route::get('/pegawai/{malasngoding}', 'PegawaiController@index');
 
 Route::get('/formulir', 'PegawaiController@formulir');
 Route::post('/formulir/proses', 'PegawaiController@proses');
+
+// route blog
+Route::get('/blog', 'BlogController@home');
+Route::get('/blog/tentang', 'BlogController@tentang');
+Route::get('/blog/kontak', 'BlogController@kontak');
